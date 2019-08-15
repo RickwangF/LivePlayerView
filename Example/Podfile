@@ -7,7 +7,6 @@ target 'LivePlayerView_Example' do
 
   target 'LivePlayerView_Tests' do
     inherit! :search_paths
-
     
   end
 end

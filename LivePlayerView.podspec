@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LivePlayerView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '基于金山直播SDK二次封装的播放器'
 
 # This description is used to generate tags and improve search results.
@@ -31,12 +31,15 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LivePlayerView/Classes/**/*'
-  
+  #s.vendored_libraries = 'LivePlayerView/*.{framework}'
+
   # s.resource_bundles = {
   #   'LivePlayerView' => ['LivePlayerView/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+
   s.dependency 'KSYMediaPlayer_iOS', '~> 3.0.3'
+  s.static_framework = true
 end

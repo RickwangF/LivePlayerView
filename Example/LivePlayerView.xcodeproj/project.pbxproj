@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D14AB2323054F1B00835C68 /* KSYMediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KSYMediaPlayer.framework; path = ../LivePlayerView/KSYMediaPlayer.framework; sourceTree = "<group>"; };
 		3CAE743108C8F664ED790BCB /* Pods_LivePlayerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LivePlayerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LivePlayerView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivePlayerView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,7 +58,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		665F5EBBE2FE5600F93B5AD0 /* LivePlayerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LivePlayerView.podspec; path = ../LivePlayerView.podspec; sourceTree = "<group>"; };
+		665F5EBBE2FE5600F93B5AD0 /* LivePlayerView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LivePlayerView.podspec; path = ../LivePlayerView.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F75ABBBFA45C64F95C2C0CA /* Pods-LivePlayerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivePlayerView_Example.debug.xcconfig"; path = "Target Support Files/Pods-LivePlayerView_Example/Pods-LivePlayerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		80EDA4AEBBD98C1AF9F354EC /* Pods_LivePlayerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LivePlayerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +66,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93EF7829976B3859CA83F0A2 /* Pods-LivePlayerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivePlayerView_Tests.release.xcconfig"; path = "Target Support Files/Pods-LivePlayerView_Tests/Pods-LivePlayerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		997022F1CEF45BBDB907FB32 /* Pods-LivePlayerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LivePlayerView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LivePlayerView_Tests/Pods-LivePlayerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A0AAAB67B55C3A46CF32489C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FF414CD5A5B10FD1F0360F57 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A0AAAB67B55C3A46CF32489C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FF414CD5A5B10FD1F0360F57 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +120,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1D14AB2323054F1B00835C68 /* KSYMediaPlayer.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -193,7 +195,6 @@
 				997022F1CEF45BBDB907FB32 /* Pods-LivePlayerView_Tests.debug.xcconfig */,
 				93EF7829976B3859CA83F0A2 /* Pods-LivePlayerView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +209,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				B57411738A44C8EB25EED70B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "woshiwwy16@126.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 8W7NY9PTY5;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -315,24 +319,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B57411738A44C8EB25EED70B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LivePlayerView_Example/Pods-LivePlayerView_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LivePlayerView/LivePlayerView.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LivePlayerView.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LivePlayerView_Example/Pods-LivePlayerView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C62ACC6887E63CEA0D76C80D /* [CP] Check Pods Manifest.lock */ = {
@@ -494,9 +480,11 @@
 			baseConfigurationReference = 7F75ABBBFA45C64F95C2C0CA /* Pods-LivePlayerView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8W7NY9PTY5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LivePlayerView/LivePlayerView-Prefix.pch";
 				INFOPLIST_FILE = "LivePlayerView/LivePlayerView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,9 +498,11 @@
 			baseConfigurationReference = 832BE942754B872AE017A056 /* Pods-LivePlayerView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8W7NY9PTY5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LivePlayerView/LivePlayerView-Prefix.pch";
 				INFOPLIST_FILE = "LivePlayerView/LivePlayerView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

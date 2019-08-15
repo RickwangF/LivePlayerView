@@ -1,7 +1,7 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/LivePlayerView"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/LivePlayerView" "${PODS_ROOT}/KSYMediaPlayer_iOS/framework/live"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/LivePlayerView/LivePlayerView.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "LivePlayerView"
+OTHER_LDFLAGS = $(inherited) -l"bz2" -l"iconv" -l"stdc++.6" -l"z" -framework "VideoToolbox"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

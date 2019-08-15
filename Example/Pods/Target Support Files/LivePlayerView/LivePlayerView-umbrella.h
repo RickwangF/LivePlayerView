@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "LivePlayerView.h"
+#import "LivePlayingInfoKit.h"
+#import "NSTimer+ProjectTool.h"
 
 FOUNDATION_EXPORT double LivePlayerViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char LivePlayerViewVersionString[];

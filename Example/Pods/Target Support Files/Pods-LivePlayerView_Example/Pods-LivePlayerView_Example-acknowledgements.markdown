@@ -1,6 +1,11 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## KSYMediaPlayer_iOS
+
+Copyright 2015 kingsoft Ltd. All rights reserved.
+
+
 ## LivePlayerView
 
 Copyright (c) 2019 woshiwwy16@126.com <woshiwwy16@126.com>
