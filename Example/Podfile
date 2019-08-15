@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LivePlayerView_Example' do
+  pod 'LivePlayerView', :path => '../'
+
+  target 'LivePlayerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
