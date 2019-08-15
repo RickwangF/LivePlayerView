@@ -1,0 +1,6 @@
+framework module LivePlayerView {
+  umbrella header "LivePlayerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

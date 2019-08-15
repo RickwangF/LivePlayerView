@@ -1,0 +1,22 @@
+{
+  "name": "LivePlayerView",
+  "version": "0.1.0",
+  "summary": "A short description of LivePlayerView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/woshiwwy16@126.com/LivePlayerView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "woshiwwy16@126.com": "woshiwwy16@126.com"
+  },
+  "source": {
+    "git": "https://github.com/woshiwwy16@126.com/LivePlayerView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LivePlayerView/Classes/**/*"
+}
